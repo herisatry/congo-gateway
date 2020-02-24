@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Team from '../components/Team'
 
 export const IndexPageTemplate = ({
   image,
@@ -17,6 +18,7 @@ export const IndexPageTemplate = ({
     <div
       className="full-width-image margin-top-0 is-fullheight"
       style={{
+        height: '100vh',
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
@@ -60,6 +62,13 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+        <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact">
+                      Contact Us
+                    </Link>
+                  </div>
+                </div>
       </div>
     </div>
     <section className="section section--gradient">
@@ -68,7 +77,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
+                <div className="content is-centered">
                   <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
@@ -83,6 +92,12 @@ export const IndexPageTemplate = ({
                       See all products
                     </Link>
                   </div>
+                </div>
+                <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    Notre Equipe
+                  </h3>
+                  <Team />
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
