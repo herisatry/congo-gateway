@@ -62,22 +62,15 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/contact">
-                      Contact Us
-                    </Link>
-                  </div>
-                </div>
       </div>
     </div>
     <section className="section section--gradient">
-      <div className="container">
+      <div className="container is-fluid">
         <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
+          <div className="columns is-gapless is-multiline is-mobile">
+            <div className="column is-centered">
               <div className="content">
-                <div className="content is-centered">
+                <div className="content ">
                   <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>

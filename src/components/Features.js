@@ -5,7 +5,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-one-quarter">
     {gridItems.map(item => (
-      <div key={item.text} className="column is-2">
+      <div key={item.text} className="column is-4">
         <section className="section">
           <div className="has-text-centered">
             <div
