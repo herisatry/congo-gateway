@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Team from '../components/Team'
+import Counter from '../components/Counter'
 
 export const IndexPageTemplate = ({
   image,
@@ -82,19 +83,27 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      See all products
+                      NOS SERVICES
                     </Link>
                   </div>
                 </div>
-                <div className="column is-12">
+                <div className="column">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Notre Equipe
+                    NOS EXPERT
                   </h3>
                   <Team />
                 </div>
+                <div className="column">
+                  <p className="has-text-weight-semibold has-text-centered">
+                  Après plus de cinquante ans de colonisation,le deuxième plus grand pays du continent africain a accédé à l’indépendance en 1960.
+                  Dès lors, les investisseurs étrangers n'ont jamais cessé de revenir en République Démocratique du Congo à la faveur des efforts fournis par ses dirigeants en termes de l’amélioration du climat des affaires,
+                   de l’immensité de ses potentialités et de ses diverses opportunités d’investissements. La RD Congo attire des entrepreneurs venant des quatre coins du monde..
+                  </p>
+                  <Counter />
+                </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    BLOG
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
