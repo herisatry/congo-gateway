@@ -46,10 +46,10 @@ const Navbar = class extends React.Component {
     <img src={logo} alt="logo" style={{height:100}}/>
   </p>
   <p className="level-item has-text-centered">
-  <Link to="/" className="navbar-item">Blog</Link>
+  <Link to="/blog" className="navbar-item">Blog</Link>
   </p>
   <p className="level-item has-text-centered">
-  <Link to="/" className="navbar-item">Contact</Link>
+  <Link to="/contact" className="navbar-item">Contact</Link>
   </p>
   </div>
 </nav>
