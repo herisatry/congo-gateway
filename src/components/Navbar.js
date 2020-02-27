@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo.png'
 
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -33,54 +34,25 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="columns">
-        <div className="column">
-          <div className="navbar-brand ">
-            <Link to="/" className="navbar-item" title="Logo">
-              <h2>Congo Gateway</h2>
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          </div>
-        </div>
-        <div className="columns">
-        <div className="column">
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar has-text-centered">
-              <Link className="navbar-item" to="/about">
-                A propos
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Services
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-            </div>
-          </div>
-        </div>
-        </div>
-      </nav>
+      <nav className="level">
+  <div className={`level-item has-text-centered ${this.state.navBarActiveClass}`}>
+  <p className="level-item has-text-centered">
+    <Link to="/" className="navbar-item">Acceuil</Link>
+  </p>
+  <p className="level-item has-text-centered">
+  <Link to="/" className="navbar-item">A propos</Link>
+  </p>
+  <p className="level-item has-text-centered">
+    <img src={logo} alt="logo" style={{height:100}}/>
+  </p>
+  <p className="level-item has-text-centered">
+  <Link to="/" className="navbar-item">Blog</Link>
+  </p>
+  <p className="level-item has-text-centered">
+  <Link to="/" className="navbar-item">Contact</Link>
+  </p>
+  </div>
+</nav>
     )
   }
 }

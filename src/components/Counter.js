@@ -6,26 +6,26 @@ const CounterGrid = () => (
   <nav className="level is-mobile">
   <div className="level-item has-text-centered">
     <div>
-      <p className="heading">Tweets</p>
-      <p className="title">3,456</p>
+      <p className="heading">SUPERFICIE(km2)</p>
+      <p className="title">2.345.410</p>
     </div>
   </div>
   <div className="level-item has-text-centered">
     <div>
-      <p className="heading">Following</p>
-      <p className="title">123</p>
+      <p className="heading">POTENTIEL HYDROÉLECTRIQUE(megawatts)</p>
+      <p className="title">100.000</p>
     </div>
   </div>
   <div className="level-item has-text-centered">
     <div>
-      <p className="heading">Followers</p>
-      <p className="title">456K</p>
+      <p className="heading">HABITANTS</p>
+      <p className="title">95.784.841</p>
     </div>
   </div>
   <div className="level-item has-text-centered">
     <div>
-      <p className="heading">Likes</p>
-      <p className="title">789</p>
+      <p className="heading">VARIÉTÉS D’ÉCOSYSTÈME COUVRANT(hectares)</p>
+      <p className="title">145.000.000</p>
     </div>
   </div>
 </nav>
