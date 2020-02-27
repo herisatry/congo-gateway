@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
 title: Voulez - vous investir en RDC ?
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+image: /img/1223.jpg
+heading: Voulez - vous investir en RDC ?
+subheading: ' Nous sommes CONGO GATEWAY un Etablissement privé à caractère technique , Nous fournissons toujours nos meilleurs services à nos clients.'
 mainpitch:
   title: POURQUOI CHOISIR CONGO GATEWAY ?
   description: >
