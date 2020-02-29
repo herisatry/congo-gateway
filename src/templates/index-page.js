@@ -89,7 +89,7 @@ export const IndexPageTemplate = ({
                 <div
       className="full-width-image-container margin-top-0"
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,backgroundPosition: `bottom center`,
         backgroundAttachment: `fixed`,
