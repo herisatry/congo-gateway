@@ -71,11 +71,11 @@ export const IndexPageTemplate = ({
           <div className="columns is-gapless is-multiline is-mobile">
             <div className="column is-centered">
               <div className="content">
-                <div className="content ">
+                <div className="content section">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h1 className="title has-text-centered">{mainpitch.title}</h1>
                   </div>
-                  <div className="tile">
+                  <div className="tile has-text-centered">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
                 </div>
@@ -183,6 +183,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            title
             text
           }
           heading
