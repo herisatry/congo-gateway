@@ -23,14 +23,13 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        backgroundPosition: `cover`,
         backgroundAttachment: `fixed`,
       }}
     >
       <div
         style={{
           display: 'flex',
-          height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
@@ -41,11 +40,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              ' rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(0, 0, 0, 0.5)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+           
           }}
         >
           {title}
@@ -54,11 +54,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              'rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(0, 0, 0, 0.5)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            width:'1000px',
           }}
         >
           {subheading}
@@ -68,15 +69,15 @@ export const IndexPageTemplate = ({
     <section className="section section--gradient">
       <div className="container is-fluid">
         <div className="section">
-          <div className="columns is-gapless is-multiline is-mobile">
+          <div className="columns is-gapless is-multiline">
             <div className="column is-centered">
               <div className="content">
-                <div className="content section">
+                <div className="section">
                   <div className="tile">
-                    <h1 className="title has-text-centered">{mainpitch.title}</h1>
+                    <h2 className="title has-text-left">{mainpitch.title}</h2>
                   </div>
-                  <div className="tile has-text-centered">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  <div className="tile">
+                    <p className="has-text-justified">{mainpitch.description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
@@ -84,14 +85,26 @@ export const IndexPageTemplate = ({
                   <div className="column is-12 has-text-centered">
                   </div>
                 </div>
-                <div className="column">
-                  <p className="has-text-weight-semibold has-text-centered">
+
+                <div
+      className="full-width-image-container margin-top-0"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${
+          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        })`,backgroundPosition: `bottom center`,
+        backgroundAttachment: `fixed`,
+        
+      }}
+    >
+      <div className="column" style={{color:'white'}}>
+                  <p className=" has-text-weight-semibold has-text-justified">
                   Après plus de cinquante ans de colonisation,le deuxième plus grand pays du continent africain a accédé à l’indépendance en 1960.
                   Dès lors, les investisseurs étrangers n'ont jamais cessé de revenir en République Démocratique du Congo à la faveur des efforts fournis par ses dirigeants en termes de l’amélioration du climat des affaires,
                    de l’immensité de ses potentialités et de ses diverses opportunités d’investissements. La RD Congo attire des entrepreneurs venant des quatre coins du monde..
                   </p>
                   <Counter />
                 </div>
+    </div>
                 {/*
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
@@ -183,7 +196,6 @@ export const pageQuery = graphql`
                 }
               }
             }
-            title
             text
           }
           heading

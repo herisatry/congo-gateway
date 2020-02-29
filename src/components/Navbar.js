@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav className="level">
+      <nav className="level ">
   <div className={`level-item has-text-centered ${this.state.navBarActiveClass}`}>
   <p className="level-item has-text-centered">
     <Link to="/" className="navbar-item">Acceuil</Link>
@@ -43,7 +43,7 @@ const Navbar = class extends React.Component {
   <Link to="/" className="navbar-item">A propos</Link>
   </p>
   <p className="level-item has-text-centered">
-    <img src={logo} alt="logo" style={{height:100}}/>
+    <img src={logo} alt="logo" style={{ width: '14em', height: '10em' }}/>
   </p>
   <p className="level-item has-text-centered">
   <Link to="/blog" className="navbar-item">Blog</Link>
