@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+//import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const TeamGrid = () => (
   <section className="tile team-area has-text-white" id="team">
