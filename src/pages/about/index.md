@@ -1,19 +1,35 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: A PROPOS DE CONGO GATEWAY
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### NOTRE BUREAU D’ETUDE
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+**Congo Gateway** est un bureau d’étude en business management et conseil en investissement, opérant dans une diversité de secteurs d’activités. Nous accompagnons nos clients dans l’élaboration de leurs projets d’investissement, leur diagnostic financier, l’élaboration de leurs modèles économiques, pour leur levée de fonds ou encore pour la gestion de leurs projets. Congo Gateway est une Société entrepreneuriale multisectorielle qui s’appuie sur l’expertise et la vision stratégique de ses consultants financiers et ingénieurs. Pour accompagner ses clients dans leur processus de développement interne, mais également auprès des conseillers juridiques et techniques. Forts d’une expertise internationale en business, en construction immobilière, mine, informatique appliquée, acquisition, levée de fonds, conseil financier et stratégie de gestion d’entreprise, les consultants de Congo Gateway déploient leurs multiples métiers au service de la création de valeur à travers la mise en place de concepts innovants.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### NOTRE POLITIQUE
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Notre bureau d’étude s’est créé autour de la volonté partagé de plusieurs jeunes entrepreneurs et consultant dans divers secteurs d’activités afin de proposer une offre de conseil qui permettra aux entreprises d’accroitre leurs rendements et d’améliorer leurs stratégies de gestion d’entreprise. La politique de notre Bureau d’étude et de notre offre de conseil en stratégie, organisation et management s’appuie sur 3 idéologies : **SIMPLE – RAPIDE – EFFICACE** 
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+**Faire Simple** : Permettre aux entreprises ou prospects de dégager le plus simplement possible les gains attendus pour atteindre les objectifs stratégiques fixés.
+
+**Faire Rapidement** : Mettre un accent privilégié sur l’action et la mise en œuvre. Le principe de décision de la mise en œuvre s’appuyant sur l’importance relative des enjeux.
+
+**Faire Efficacement** : Définir une approche adaptée à produire le maximum de résultats avec le minimum d’effort et de dépense.
+
+**Expertise** : Disponibilité d’une équipe de consultants expérimentés à l’international. 
+
+**Innovation** : Des solutions innovantes, capables de créer davantage de valeur à nos clients. Personnalisation : Des prestations sur mesure, pratiques et flexibles en fonction des besoins du client.
+
+**Accompagnement** : Assurer le suivi des projets, au niveau administratif et législatif, au-delà de leur mise en œuvre, afin d’optimiser l’activité de l’entreprise dans la durée.
+
+**Réactivité** : La réactivité étant au cœur de notre organisation, l’ensemble du bureau d’étude est à votre écoute.
+
+### NOS SECTEURS D’ACTIVITES
+
+**Consulting** : Congo Gateway s’engage à vous accompagner dans la réalisation de vos projets, pour le développement de vos activités ainsi que pour la relance dans un climat d’affaires exigent, à travers la réalisation d’études adaptées à votre situation.
+
+**Management** : Congo Gateway s’engage à prendre en charge la gestion de vos projets, et à vous accompagner dans la gestion de votre patrimoine. Nos experts ne manqueront pas de pérenniser vos projets et d’accroitre votre rendement. 
+
+**Investissement** : Congo Gateway s’engage à vous fournir des recommandations sur vos activités afin de vous permettre d’atteindre vos objectifs en établissant un plan de suivi individualisé adapté à votre situation personnelle. 
+
+**Entertainment** : Les spécialistes en communication médiatique de Congo Gateway garantissent un accompagnement sur mesure dans tous vos projets de communication marketing pour vous aider à élargir votre audience, à élaborer de nouveaux produits et à promouvoir des nouvelles fiables.
