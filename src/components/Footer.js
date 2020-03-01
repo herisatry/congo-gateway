@@ -35,7 +35,7 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/">
+                      <Link className="navbar-item" to="/products">
                         Nos Services
                       </Link>
                     </li>
@@ -95,6 +95,12 @@ const Footer = class extends React.Component {
             </div>
           </div>
         </div>
+        <div className="content has-text-centered column is-12">
+                49, Boulevard du 30 juin, Immeuble Immobilia, Kinshasa - Gombe. <br/>
+                +(243) 819 561 136<br/>
+                +(243) 815 676 085<br/>
+                info@congogateway.com
+              </div>
       </footer>
     )
   }

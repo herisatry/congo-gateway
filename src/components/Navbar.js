@@ -40,7 +40,7 @@ const Navbar = class extends React.Component {
     <Link to="/" className="navbar-item">Acceuil</Link>
   </p>
   <p className="level-item has-text-centered">
-  <Link to="/" className="navbar-item">A propos</Link>
+  <Link to="/about" className="navbar-item">A propos</Link>
   </p>
   <p className="level-item has-text-centered">
     <img src={logo} alt="logo" style={{ width: '14em', height: '10em' }}/>
