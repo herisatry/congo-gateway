@@ -4,8 +4,8 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-//import BlogRoll from '../components/BlogRoll'
-//import Team from '../components/Team'
+import BlogRoll from '../components/BlogRoll'
+import Team from '../components/Team'
 import Counter from '../components/Counter'
 
 export const IndexPageTemplate = ({
@@ -45,12 +45,11 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
-           
           }}
         >
           {title}
         </h1>
-        <h3
+        <h4
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
@@ -63,7 +62,7 @@ export const IndexPageTemplate = ({
           }}
         >
           {subheading}
-        </h3>
+        </h4>
       </div>
     </div>
     <section className="section section--gradient">
@@ -93,7 +92,6 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,backgroundPosition: `bottom center`,
         backgroundAttachment: `fixed`,
-        
       }}
     >
       <div className="column" style={{color:'white'}}>
@@ -105,9 +103,18 @@ export const IndexPageTemplate = ({
                   <Counter />
                 </div>
     </div>
-                {/*
+                  <div className="column is-12 ">
+                    <div className="section-title ">
+                      <h3 className="has-text-weight-semibold is-uppercase">Nos Experts</h3>
+                      <p className="has-text-weight-semibold has-text-justified">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                      </p>
+                    </div>
+                  <Team />
+                </div>
+
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <h3 className="has-text-weight-semibold is-uppercase">
                     BLOG
                   </h3>
                   <BlogRoll />
@@ -117,8 +124,6 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
-
-                */}
               </div>
             </div>
           </div>
