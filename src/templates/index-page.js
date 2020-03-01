@@ -106,9 +106,6 @@ export const IndexPageTemplate = ({
                   <div className="column is-12 ">
                     <div className="section-title ">
                       <h3 className="has-text-weight-semibold is-uppercase">Nos Experts</h3>
-                      <p className="has-text-weight-semibold has-text-justified">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                      </p>
                     </div>
                   <Team />
                 </div>
