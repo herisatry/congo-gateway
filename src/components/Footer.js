@@ -15,7 +15,7 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="Congo gateway"
-            style={{ width: '14em', height: '10em' }}
+            style={{ width: 'auto', height: '150px' }}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
@@ -101,6 +101,13 @@ const Footer = class extends React.Component {
                 +(243) 815 676 085<br/>
                 info@congogateway.com
               </div>
+              <div className="content has-text-centered">
+                <p>
+                  <strong>Congo Gateway</strong> by <a href="http://herisatry.com">Herisatry L. </a>. The source code is licensed
+                  <a href="http://opensource.org/licenses/mit-license.php"> MIT</a>. The website content
+                  is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                </p>
+            </div>
       </footer>
     )
   }

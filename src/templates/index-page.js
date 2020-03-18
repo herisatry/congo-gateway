@@ -65,7 +65,7 @@ export const IndexPageTemplate = ({
         </h4>
       </div>
     </div>
-    <section className="section section--gradient">
+    <section className="section section--gradient ">
       <div className="container is-fluid">
         <div className="section">
           <div className="columns is-gapless is-multiline">
@@ -98,12 +98,14 @@ export const IndexPageTemplate = ({
       }}
     >
       <div className="column" style={{color:'white'}}>
-                  <p className=" has-text-weight-semibold has-text-justified">
-                  Après plus de cinquante ans de colonisation,le deuxième plus grand pays du continent africain a accédé à l’indépendance en 1960.
-                  Dès lors, les investisseurs étrangers n'ont jamais cessé de revenir en République Démocratique du Congo à la faveur des efforts fournis par ses dirigeants en termes de l’amélioration du climat des affaires,
-                   de l’immensité de ses potentialités et de ses diverses opportunités d’investissements. La RD Congo attire des entrepreneurs venant des quatre coins du monde..
-                  </p>
-                  <Counter />
+                  <div className="container">
+                      <p className=" has-text-weight-semibold has-text-centered">
+                      Après plus de cinquante ans de colonisation,le deuxième plus grand pays du continent africain a accédé à l’indépendance en 1960.
+                      Dès lors, les investisseurs étrangers n'ont jamais cessé de revenir en République Démocratique du Congo à la faveur des efforts fournis par ses dirigeants en termes de l’amélioration du climat des affaires,
+                      de l’immensité de ses potentialités et de ses diverses opportunités d’investissements. La RD Congo attire des entrepreneurs venant des quatre coins du monde.
+                      </p>
+                    <Counter />
+                  </div>
                 </div>
     </div>
                   <div className="column is-12 ">
