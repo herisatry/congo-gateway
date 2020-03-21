@@ -114,11 +114,10 @@ export const IndexPageTemplate = ({
                     </div>
                   <Team />
                 </div>
-
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-uppercase">
+                <div className="column is-12 divider has-text-weight-semibold is-uppercase">
                     BLOG
-                  </h3>
+                  </div>
+                <div className="column is-12 ">
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">

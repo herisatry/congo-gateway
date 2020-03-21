@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {bayindu} from '../img/experts/bayindu.jpg'
-import {tambwe} from '../img/experts/ntambwe.jpg'
-import {pilipili} from '../img/experts/pilipili.png'
+
 //import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const TeamGrid = () => (

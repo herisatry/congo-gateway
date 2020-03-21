@@ -21,7 +21,7 @@ const FeatureGrid = ({ gridItems }) => (
             </figure>
             </div>
           </div>
-            <div className="has-text-centered">
+            <div className="has-text-justified">
               <h3 className="title">{item.title}</h3>
               {item.text}
             </div>

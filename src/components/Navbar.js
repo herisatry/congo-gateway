@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo.png'
-import adress from '../img/social/adress.svg'
-import contact from '../img/social/contact.svg'
 
 
 const Navbar = class extends React.Component {
@@ -48,7 +46,7 @@ const Navbar = class extends React.Component {
           </div>
           <div className={`level-right`}>
             <p className="level-item ">
-              <Link to="/contact" className=" has-text-white">Nous contacter ?</Link>
+              <Link to="/contact" className=" has-text-white is-uppercase">Nous contacter ?</Link>
             </p>
           </div>
       </nav>
@@ -68,16 +66,16 @@ const Navbar = class extends React.Component {
         <nav className="level">
             <div className={`container  level-item ${this.state.navBarActiveClass}`}>
               <p className="level-item has-text-centered">
-                <Link to="/" className="navbar-item ">Acceuil</Link>
+                <Link to="/" className="navbar-item is-uppercase has-text-weight-semibold	">Acceuil</Link>
               </p>
               <p className="level-item has-text-centered">
-                <Link to="/about" className="navbar-item">A propos</Link>
+                <Link to="/about" className="navbar-item is-uppercase has-text-weight-semibold	">A propos</Link>
               </p>
               <p className="level-item has-text-centered">
-                <Link to="/blog" className="navbar-item">Blog</Link>
+                <Link to="/blog" className="navbar-item is-uppercase has-text-weight-semibold	">Blog</Link>
               </p>
               <p className="level-item has-text-centered">
-                <Link to="/contact" className="navbar-item">Contact</Link>
+                <Link to="/contact" className="navbar-item is-uppercase has-text-weight-semibold	">Contact</Link>
               </p>
             </div>
         </nav>
