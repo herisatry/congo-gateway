@@ -1,24 +1,26 @@
 ---
 templateKey: index-page
-title: Voulez - vous investir en RDC ?
-image: /img/1223.jpg
+title: Vous voulez investir en RDC ?
+image: /img/AdobeStock_275582357.jpeg
 heading: Voulez - vous investir en RDC ?
-subheading: ' Nous sommes CONGO GATEWAY un Etablissement privé à caractère technique , Nous fournissons toujours nos meilleurs services à nos clients.'
+subheading: >-
+  CONGO GATEWAY  sera votre meilleur atout! Etant un établissement privé à
+  caractère technique, il vous fournit des services à la hauteur de vos
+  attentes.
 mainpitch:
-  title: POURQUOI CHOISIR CONGO GATEWAY ?
+  title: CONGO GATEWAY ? EXCELLENT CHOIX !
   description: >
-    CONGO GATEWAY offre de meilleurs services Afin d'assurer aux investisseurs
-    un accompagnement profitable à même de leur Aider à la création des
-    entreprises sur le sol congolais, Fourniture d'informations à temps réel,
-    Etablissement de partenariats tant avec les opérateurs publics que privés et
-    retour à l'aéroport ; Accompagnement à Kinshasa et en provinces Et
-    d’accompagner les entreprises et les organisations dans leurs démarches
-    d'amélioration continue et de recherche de la performance.
+    CONGO GATEWAY offre les meilleurs services afin d'assurer aux investisseurs
+    un accompagnement profitable à même de les aider dans la création
+    d'entreprises sur le sol congolais. Nous assistons nos prospects dans
+    l’élaboration de leurs plans d'affaires, leur diagnostic financier,
+    l’élaboration de leurs modèles économiques ou encore dans la gestion de
+    leurs projets.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Congo Gateway est une Société entrepreneuriale multisectorielle qui s’appuie
+  sur l’expertise et la vision stratégique de ses consultants financiers et
+  ingénieurs. Pour accompagner ses clients dans leur processus de développement
+  interne, mais également auprès des conseillers juridiques et techniques.
 intro:
   blurbs:
     - image: /img/icons8-handshake-100.png
@@ -39,12 +41,13 @@ intro:
       text: Etude d’implantation
     - image: /img/icons8-goal-100.png
       text: Mobilité internationale
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  heading: 'Nos services, à la hauteur de vos attentes...'
+  description: >-
+    Congo Gateway est une Société entrepreneuriale multisectorielle qui s’appuie
+    sur l’expertise et la vision stratégique de ses consultants financiers et
+    ingénieurs. Pour accompagner ses clients dans leur processus de
+    développement interne, mais également auprès des conseillers juridiques et
+    techniques.
 main:
   heading: Great coffee with no compromises
   description: >
